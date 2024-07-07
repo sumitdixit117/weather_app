@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Weathercard from "./WeatherCard";
 
 const Weather = () => {
-  const [searchValue, setSearchValue] = useState("vellore");
+  const [searchValue, setSearchValue] = useState("etah");
   const [tempInfo, setTempInfo] = useState({});
 
   const getWeatherInfo = async () => {
